@@ -1,0 +1,236 @@
+<!DOCKTYPE html>
+<html Long="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatibible" content="IE=edge">
+    <meta name="viewport" content="width-device-width, initial-scale-1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="C:\Users\expre\Desktop\local host site\css\estilo.css">
+    <title>Streaming Local</title>
+<head>
+<body>
+    <div class="name text-center">
+        <h1>Streaming Local</h1>
+    </div>
+
+<nav class="navbar navbar-expand-lg navbar-ligth cor1">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="C:\Users\expre\Desktop\local host site\js\Frontend\Filmes.html">Streaming Local</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarScroll">
+      <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="C:\Users\expre\Desktop\local host site\js\Frontend\Filmes.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Catálogo</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="true">
+            Opções
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#filme">Filmes</a></li>
+            <li><a class="dropdown-item" href="#serie">Séries</a></li>
+            <li><a class="dropdown-item" href="#desenho">Desenhos</a></li>
+            <li><a class="dropdown-item" href="#documentario">Documentários</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#documen">Novidade</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" aria-disabled="true">Plano</a>
+        </li>
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+<div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="C:\Users\expre\Downloads\Streaming Local.png" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="C:\Users\expre\Downloads\Pegue um Café E aproveite seu filme.png" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="C:\Users\expre\Downloads\Streaming Local.png" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+<br>
+    <div class="container text=ligth" id=filme>
+        <h2>FILMES</h2>
+    </div>
+
+<div id="carouselExampleIndicators" class="carousel slide">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+
+  <div class="container">
+    <div class="carousel-inner">
+    <div class="row">
+    <div class="carousel-item active">	
+	<a href="C:\Users\expre\Desktop\local host site\js\index Filmes\sinopse\13 minutos de tormenta\index.html"><img src="C:\Users\expre\Desktop\local host site\img\imagens icon\1.png" class="img-fluid" alt="..."></a>
+	<a href="C:\Users\expre\Desktop\local host site\js\index Filmes\sinopse\Emacipação uma historia de liberdade\index.html""><img src="C:\Users\expre\Desktop\local host site\img\imagens icon\2.png" class="img-fluid" alt="..."></a>
+	<a href="C:\Users\expre\Desktop\local host site\js\index Filmes\sinopse\A Cinco passos de voce\index.html"><img src="C:\Users\expre\Desktop\local host site\img\imagens icon\3.png"img-fluid" alt="..."></a>
+	<a href="C:\Users\expre\Desktop\local host site\js\index Filmes\sinopse\A Baleia\index.html"><img src="C:\Users\expre\Desktop\local host site\img\imagens icon\4.png"img-fluid" alt="..."></a>
+	</div>
+   
+
+   <div class="carousel-item">
+	<a href="C:\Users\expre\Desktop\local host site\js\index Filmes\sinopse\A Bruxa\index.html"><img src="C:\Users\expre\Desktop\local host site\img\imagens icon\5.png" class="img-fluid" alt="..."></a>
+	<a href="C:\Users\expre\Desktop\local host site\js\index Filmes\sinopse\A Guerra do Amanhã\index.html"><img src="C:\Users\expre\Desktop\local host site\img\imagens icon\6.png" class="img-fluid" alt="..."></a>
+	<a href="C:\Users\expre\Desktop\local host site\js\index Filmes\sinopse\A Origem\index.html"><img src="C:\Users\expre\Desktop\local host site\img\imagens icon\7.png" class="img-fluid" alt="..."></a>
+	<a href="C:\Users\expre\Desktop\local host site\js\index Filmes\sinopse\Abandonada\index.html"><img src="C:\Users\expre\Desktop\local host site\img\imagens icon\8.png" class="img-fluid" alt="..."></a>
+	</div>
+   <div class="carousel-item">
+	<a href="https://www.example.com"><img src="C:\Users\expre\Desktop\local host site\img\imagens icon\9.png" class="img-fluid" alt="..."></a>
+	<a href="https://www.example.com"><img src="C:\Users\expre\Desktop\local host site\img\imagens icon\10.png" class="img-fluid" alt="..."></a>
+	<a href="https://www.example.com"><img src="C:\Users\expre\Desktop\local host site\img\imagens icon\11.png" class="img-fluid" alt="..."></a>
+	<a href="C:\Users\expre\Desktop\local host site\js\index Filmes\frontp\index.html"><img src="C:\Users\expre\Downloads\BUTTON.png" class="img-fluid" alt="..."></a>
+	</div>
+    </div>
+  </div>
+
+
+
+<br><br>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+    </div>
+
+
+    <div class="container text=ligth" id=serie>
+        <h2>SÉRIES</h2>
+    </div>
+
+<div id="carouselExample" class="carousel slide">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+
+  <div class="container">
+    <div class="carousel-inner">
+    <div class="row">
+    <div class="carousel-item active">	
+	<a href="https://www.example.com"><img src="C:\Users\expre\Desktop\local host site\img\chappie.png" class="img-fluid" alt="..."></a>
+	<a href="https://www.example.com"><img src="C:\Users\expre\Desktop\local host site\img\chappie.png" class="img-fluid" alt="..."></a>
+	<a href="https://www.example.com"><img src="C:\Users\expre\Desktop\local host site\img\chappie.png" class="img-fluid" alt="..."></a>
+	<a href="https://www.example.com"><img src="C:\Users\expre\Desktop\local host site\img\chappie.png" class="img-fluid" alt="..."></a>
+	</div>
+   
+
+   <div class="carousel-item">
+	<a href="https://www.example.com"><img src="C:\Users\expre\Desktop\local host site\img\chappie.png" class="img-fluid" alt="..."></a>
+	<a href="https://www.example.com"><img src="C:\Users\expre\Desktop\local host site\img\chappie.png" class="img-fluid" alt="..."></a>
+	<a href="https://www.example.com"><img src="C:\Users\expre\Desktop\local host site\img\chappie.png" class="img-fluid" alt="..."></a>
+	<a href="https://www.example.com"><img src="C:\Users\expre\Desktop\local host site\img\chappie.png" class="img-fluid" alt="..."></a>
+	</div>
+   <div class="carousel-item">
+	<a href="https://www.example.com"><img src="C:\Users\expre\Desktop\local host site\img\chappie.png" class="img-fluid" alt="..."></a>
+	<a href="https://www.example.com"><img src="C:\Users\expre\Desktop\local host site\img\chappie.png" class="img-fluid" alt="..."></a>
+	<a href="https://www.example.com"><img src="C:\Users\expre\Desktop\local host site\img\chappie.png" class="img-fluid" alt="..."></a>
+	<a href="https://www.example.com"><img src="C:\Users\expre\Desktop\local host site\img\chappie.png" class="img-fluid" alt="..."></a>
+	</div>
+    </div>
+  </div>
+
+
+
+<br><br>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+</div>
+
+
+    <div class="container text=ligth" id=desenho>
+        <h2>DESENHOS</h2>
+    </div>
+
+<div id="carouselExample3" class="carousel slide">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExample3" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExample3" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExample3" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+
+  <div class="container">
+    <div class="carousel-inner">
+    <div class="row">
+    <div class="carousel-item active">	
+	<a href="https://www.example.com"><img src="C:\Users\expre\Desktop\local host site\img\chappie.png" class="img-fluid" alt="..."></a>
+	<a href="https://www.example.com"><img src="C:\Users\expre\Desktop\local host site\img\chappie.png" class="img-fluid" alt="..."></a>
+	<a href="https://www.example.com"><img src="C:\Users\expre\Desktop\local host site\img\chappie.png" class="img-fluid" alt="..."></a>
+	<a href="https://www.example.com"><img src="C:\Users\expre\Desktop\local host site\img\chappie.png" class="img-fluid" alt="..."></a>
+	</div>
+   
+
+   <div class="carousel-item">
+	<a href="https://www.example.com"><img src="C:\Users\expre\Desktop\local host site\img\chappie.png" class="img-fluid" alt="..."></a>
+	<a href="https://www.example.com"><img src="C:\Users\expre\Desktop\local host site\img\chappie.png" class="img-fluid" alt="..."></a>
+	<a href="https://www.example.com"><img src="C:\Users\expre\Desktop\local host site\img\chappie.png" class="img-fluid" alt="..."></a>
+	<a href="https://www.example.com"><img src="C:\Users\expre\Desktop\local host site\img\chappie.png" class="img-fluid" alt="..."></a>
+	</div>
+   <div class="carousel-item">
+	<a href="https://www.example.com"><img src="C:\Users\expre\Desktop\local host site\img\chappie.png" class="img-fluid" alt="..."></a>
+	<a href="https://www.example.com"><img src="C:\Users\expre\Desktop\local host site\img\chappie.png" class="img-fluid" alt="..."></a>
+	<a href="https://www.example.com"><img src="C:\Users\expre\Desktop\local host site\img\chappie.png" class="img-fluid" alt="..."></a>
+	<a href="https://www.example.com"><img src="C:\Users\expre\Desktop\local host site\img\chappie.png" class="img-fluid" alt="..."></a>
+	</div>
+    </div>
+  </div>
+
+
+
+<br><br>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample3" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExample3" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+    </div>
+</body>
+</html>
